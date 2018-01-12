@@ -1,0 +1,190 @@
+.width {
+  width: 74%; }
+
+.marginNull {
+  margin: 0 auto; }
+
+.navigation {
+  background-color: #F7F7F7; }
+
+.slider .carousel-inner .carousel-item {
+  height: 500px; }
+
+.featuredCar {
+  background-color: #F7F7F7;
+  padding: 40px 0 40px 0; }
+  .featuredCar .adtvPanel {
+    margin: 0px auto; }
+    .featuredCar .adtvPanel .sectionTitle {
+      width: 80%;
+      text-align: center; }
+    .featuredCar .adtvPanel .adtvBoxes {
+      padding: 0px; }
+      .featuredCar .adtvPanel .adtvBoxes .col-md-4 {
+        padding: 15px 15px 20px 15px;
+        float: left;
+        display: inline-block;
+        overflow: hidden; }
+        .featuredCar .adtvPanel .adtvBoxes .col-md-4 img {
+          width: 100%;
+          height: 180px; }
+        .featuredCar .adtvPanel .adtvBoxes .col-md-4 .carInfo {
+          border: 1px solid #E4E4E4;
+          background-color: white; }
+          .featuredCar .adtvPanel .adtvBoxes .col-md-4 .carInfo h5 {
+            color: #F44B0A;
+            padding: 8px; }
+            .featuredCar .adtvPanel .adtvBoxes .col-md-4 .carInfo h5 span {
+              padding: 3px;
+              color: white;
+              font-size: 15px;
+              float: right;
+              background-color: red;
+              border-radius: 4px; }
+          .featuredCar .adtvPanel .adtvBoxes .col-md-4 .carInfo p {
+            padding: 8px; }
+          .featuredCar .adtvPanel .adtvBoxes .col-md-4 .carInfo .bottomInfo {
+            padding-left: 10px; }
+            .featuredCar .adtvPanel .adtvBoxes .col-md-4 .carInfo .bottomInfo .col-md-4 {
+              padding: 0 3px 0 7px; }
+              .featuredCar .adtvPanel .adtvBoxes .col-md-4 .carInfo .bottomInfo .col-md-4 i {
+                color: #F44B0A; }
+
+.services {
+  background-color: #F7F7F7;
+  padding: 40px 0 40px 0; }
+  .services .letastServices {
+    padding: 0px; }
+    .services .letastServices .sectionTitle {
+      margin: 0px auto;
+      width: 80%;
+      text-align: center; }
+  .services .letastServicesBoxes .col-md-3 {
+    text-align: center; }
+    .services .letastServicesBoxes .col-md-3 i {
+      color: #F44B0A; }
+    .services .letastServicesBoxes .col-md-3 h4 {
+      color: #F44B0A; }
+
+.parallax-container {
+  background-image: url("../image/1.jpg");
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .parallax-container .background {
+    margin: 0px auto;
+    background-color: rgba(0, 0, 0, 0.4); }
+    .parallax-container .background .shops {
+      color: #F7F7F7;
+      padding: 30px 0 30px 0;
+      text-align: center; }
+      .parallax-container .background .shops .sectionTitle {
+        margin: 0px auto;
+        width: 80%;
+        text-align: center; }
+    .parallax-container .background .col-md-4 {
+      float: left;
+      display: inline-block; }
+    .parallax-container .background .box {
+      border: 5px solid black;
+      padding: 0;
+      position: relative; }
+      .parallax-container .background .box .image {
+        display: block;
+        width: 100%;
+        height: 180px;
+        border-radius: 3px; }
+      .parallax-container .background .box .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .4s ease;
+        background-color: rgba(0, 0, 0, 0.7); }
+    .parallax-container .background .box:hover .overlay {
+      opacity: 1; }
+      .parallax-container .background .box:hover .overlay .text {
+        color: #F7F7F7;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center; }
+
+.reklam {
+  background-color: #F7F7F7;
+  padding: 40px 0 40px 0; }
+  .reklam .col-md-12 {
+    padding: 0;
+    width: 74%;
+    margin: 0 auto; }
+    .reklam .col-md-12 .leftPanel {
+      margin: 0;
+      padding: 50px 20px 50px 0;
+      float: left;
+      display: inline-block; }
+    .reklam .col-md-12 .rightPanel {
+      float: right;
+      padding: 0px;
+      display: inline-block; }
+      .reklam .col-md-12 .rightPanel .carousel .carousel-inner {
+        border-radius: 5px; }
+        .reklam .col-md-12 .rightPanel .carousel .carousel-inner .carousel-item img {
+          height: 250px; }
+
+.clubSection {
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+  background-color: #1F122C;
+  color: white;
+  text-align: center; }
+  .clubSection .clubs {
+    margin: 0 auto; }
+    .clubSection .clubs .sectionTitle {
+      width: 80%; }
+      .clubSection .clubs .sectionTitle h2 {
+        margin-bottom: 20px; }
+    .clubSection .clubs .clubLogoBoxes {
+      padding: 0;
+      margin: 0 auto; }
+      .clubSection .clubs .clubLogoBoxes .box {
+        text-align: center; }
+        .clubSection .clubs .clubLogoBoxes .box a {
+          color: white;
+          text-decoration: none; }
+        .clubSection .clubs .clubLogoBoxes .box img {
+          width: auto;
+          height: 70px; }
+
+.sponsorsSection {
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  padding: 10px 0 10px 0; }
+  .sponsorsSection .sponsors {
+    margin: 0 auto; }
+    .sponsorsSection .sponsors .col-md-4 {
+      padding: 0 0 0 10px;
+      float: left;
+      display: inline-block; }
+
+.footerSection {
+  padding: 10px 0 10px 0;
+  background-color: #2A2A2A;
+  color: #999999; }
+  .footerSection .boxes {
+    margin: 0 auto; }
+    .footerSection .boxes .col-md-6 {
+      float: left;
+      display: inline-block; }
+    .footerSection .boxes .right {
+      text-align: right; }
+
+/*# sourceMappingURL=style.css.map */

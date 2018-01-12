@@ -1,0 +1,280 @@
+$fullWidth:100%;
+$width:74%;
+
+
+.width{
+	width:$width;
+
+}
+
+.marginNull{
+	margin:0 auto;
+}
+.navigation{
+	background-color:#F7F7F7;
+	
+	.navbar{
+
+	}
+}
+.slider{
+
+	.carousel-inner{
+		.carousel-item{
+			height: 500px;
+			img{
+
+			}
+		}
+	}
+}
+.featuredCar{
+	background-color:#F7F7F7;
+	padding:40px 0 40px 0;
+	.adtvPanel{
+		margin: 0px auto;
+		.sectionTitle{
+			width: 80%;
+			text-align: center;
+			h2{
+
+			}
+		}
+		.adtvBoxes{
+			padding:0px;
+			.col-md-4{
+				padding:15px 15px 20px 15px;
+				float: left;
+				display: inline-block;
+				overflow: hidden;
+				img{
+					width: 100%;
+					height: 180px;
+				}
+				.carInfo{
+					border:1px solid #E4E4E4;
+					background-color:white;
+					h5{
+					color: #F44B0A;
+					padding:8px;
+						span{
+							padding:3px;
+							color:white;
+							font-size: 15px;
+							float: right;
+							background-color:red;
+							border-radius:4px;
+						}
+					}
+					p{
+						padding:8px;
+					}
+					.bottomInfo{
+						padding-left:10px;
+						.col-md-4{
+							i{
+								color: #F44B0A;
+							}
+							padding:0 3px 0 7px;
+						}
+					}
+				}
+				
+			}
+			.col-md-4:hover{
+				
+			}
+		}
+	}
+	
+}
+.services{
+	background-color:#F7F7F7;
+	padding:40px 0 40px 0;
+	.letastServices{
+		padding:0px;
+		.sectionTitle{
+			margin: 0px auto;
+			width: 80%;
+			text-align: center;
+			h2{
+
+			}
+			p{
+
+			}
+		}
+	}
+	.letastServicesBoxes{
+		.col-md-3{
+			text-align: center;
+			i{
+				color: #F44B0A;
+			}
+			h4{
+				color: #F44B0A;
+			}
+		}
+	}	
+}
+.parallax-container{
+
+	 background-image: url("../image/1.jpg");
+	overflow:hidden;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .background{
+    	margin: 0px auto;
+    	background-color: rgba(0,0,0,0.4);
+    	.shops{
+    		color:#F7F7F7;
+	    	padding:30px 0 30px 0;
+	    	text-align: center;
+	    	.sectionTitle{
+				margin: 0px auto;
+				width: 80%;
+				text-align: center;
+				h2{
+
+				}
+				p{
+
+				}
+			}
+	    }
+	    .col-md-4{
+	    	float: left;
+	    	display: inline-block;
+	    }
+	    .box{
+	    	border:5px solid black;
+	    	padding:0;
+	    	position: relative;
+	    	.image {
+			  display: block;
+			  width: 100%;
+			  height: 180px;
+			  border-radius:3px;
+			}
+			.overlay {
+			  position: absolute;
+			  top: 0;
+			  bottom: 0;
+			  left: 0;
+			  right: 0;
+			  height: 100%;
+			  width: 100%;
+			  opacity: 0;
+			  transition: .4s ease;
+			  background-color: rgba(0,0,0,0.7);
+			}
+		}
+		.box:hover{
+			.overlay {
+			  opacity: 1;
+			  	.text {
+				  color: #F7F7F7;
+				  font-size: 20px;
+				  position: absolute;
+				  top: 50%;
+				  left: 50%;
+				  transform: translate(-50%, -50%);
+				  -ms-transform: translate(-50%, -50%);
+				  text-align: center;
+				} 
+			}
+		}
+    }      
+}
+.reklam{
+	background-color:#F7F7F7;
+ padding: 40px 0 40px 0;
+ 	.col-md-12{
+ 		padding:0;
+ 		width: $width;
+ 		margin: 0 auto;
+ 		.leftPanel{
+ 			margin: 0;
+ 		padding: 50px 20px 50px 0;
+ 		float: left;
+ 		display: inline-block;
+ 		}
+ 		.rightPanel{
+ 			float: right;
+ 			padding:0px;
+ 			display: inline-block;
+ 			.carousel{
+ 				.carousel-inner{
+ 					border-radius:5px;
+ 					.carousel-item{
+ 						img{
+ 							height: 250px;
+ 						}
+ 					}
+ 				}
+ 			}
+ 		}
+ 	}
+}
+.clubSection{
+	margin:0 auto;
+	padding: 40px 0 40px 0;
+	background-color:#1F122C;
+	color:white;
+	text-align:center;
+		.clubs{
+			margin:0 auto;
+			.sectionTitle{
+			width: 80%;
+			h2{
+				margin-bottom: 20px;
+			}
+			}		
+		.clubLogoBoxes{
+			padding:0;
+			margin: 0 auto;
+			.box{
+				a{
+					color: white;
+					text-decoration: none;
+				}
+				text-align: center;
+				img{
+			    width: auto;
+			    height: 70px;
+				}
+			}
+		}		
+	}
+}
+.sponsorsSection{
+	background-color:#F7F7F7;
+	margin:0 auto;
+	padding: 10px 0 10px 0;
+	.sponsors{
+		margin: 0 auto;
+		.col-md-4{
+			padding:0 0 0 10px;
+			float: left;
+			display: inline-block;
+		}
+	}
+}
+.footerSection{
+	padding: 10px 0 10px 0;
+	background-color:#2A2A2A;
+	color:#999999;
+	.boxes{
+		margin: 0 auto;
+		.col-md-6{
+			float: left;
+			display: inline-block;
+		}
+		.right{
+			text-align: right;
+		}
+
+	}
+}
