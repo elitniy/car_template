@@ -183,7 +183,8 @@
     margin: 0 auto; }
     .footerSection .boxes .col-md-6 {
       float: left;
-      display: inline-block; }
+      display: inline-block;
+      padding-top: 30px; }
     .footerSection .boxes .right {
       text-align: right; }
 

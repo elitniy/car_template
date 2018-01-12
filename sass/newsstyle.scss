@@ -1,0 +1,114 @@
+$fullWidth:100%;
+$width:74%;
+
+
+.width{
+	width:$width;
+
+}
+
+.marginNull{
+	margin:0 auto;
+}
+.navigation{
+	background-color:#F7F7F7;
+	
+	.navbar{
+		
+	}
+}
+.parallax{
+	margin:0;
+	img{
+		width: 100%;
+	}
+}
+.newsSection{
+	padding: 40px 0 40px 0;
+		background-color:#F7F7F7;
+	.news{	
+		margin:0 auto;
+		width: $width;
+		background-color:#F7F7F7;
+		.newsPanel{
+			float: left;
+			display: inline-block;
+			.col-md-12{
+				padding:0;	
+				img{
+					border-radius:5px;
+					width: 100%;
+				}
+				h2{
+					padding:10px 0;
+				}
+			}
+		}
+		.rightPanel{
+			.latestNews{
+				padding:0;
+				.newBox{
+					margin:0 auto;
+					padding:0px;
+					.col-md-3{
+						display: inline-block;
+						float: left;
+						padding:0;
+						img{
+							border-radius:2px;
+							width: 100%;
+						}
+					}
+					.col-md-9{
+						padding:0 0 0 10px;
+						float: right;
+					}
+				}
+			}
+			.popuartNews{
+				padding:50px 0 0 0;
+				.newBox{
+					margin:0 auto;
+					padding:0px;
+					.col-md-3{
+						display: inline-block;
+						float: left;
+						padding:0;
+						img{
+							border-radius:2px;
+							width: 100%;
+						}
+					}
+					.col-md-9{
+						padding:0 0 0 10px;
+						float: right;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+.footerSection{
+	padding: 10px 0 10px 0;
+	background-color:#2A2A2A;
+	color:#999999;
+	.boxes{
+		margin: 0 auto;
+		.col-md-6{
+			float: left;
+			display: inline-block;
+			padding-top:30px;
+		}
+		.right{
+			text-align: right;
+		}
+
+	}
+}

@@ -1,0 +1,76 @@
+.width {
+  width: 74%; }
+
+.marginNull {
+  margin: 0 auto; }
+
+.navigation {
+  background-color: #F7F7F7; }
+
+.parallax {
+  margin: 0; }
+  .parallax img {
+    width: 100%; }
+
+.newsSection {
+  padding: 40px 0 40px 0;
+  background-color: #F7F7F7; }
+  .newsSection .news {
+    margin: 0 auto;
+    width: 74%;
+    background-color: #F7F7F7; }
+    .newsSection .news .newsPanel {
+      float: left;
+      display: inline-block; }
+      .newsSection .news .newsPanel .col-md-12 {
+        padding: 0; }
+        .newsSection .news .newsPanel .col-md-12 img {
+          border-radius: 5px;
+          width: 100%; }
+        .newsSection .news .newsPanel .col-md-12 h2 {
+          padding: 10px 0; }
+    .newsSection .news .rightPanel .latestNews {
+      padding: 0; }
+      .newsSection .news .rightPanel .latestNews .newBox {
+        margin: 0 auto;
+        padding: 0px; }
+        .newsSection .news .rightPanel .latestNews .newBox .col-md-3 {
+          display: inline-block;
+          float: left;
+          padding: 0; }
+          .newsSection .news .rightPanel .latestNews .newBox .col-md-3 img {
+            border-radius: 2px;
+            width: 100%; }
+        .newsSection .news .rightPanel .latestNews .newBox .col-md-9 {
+          padding: 0 0 0 10px;
+          float: right; }
+    .newsSection .news .rightPanel .popuartNews {
+      padding: 50px 0 0 0; }
+      .newsSection .news .rightPanel .popuartNews .newBox {
+        margin: 0 auto;
+        padding: 0px; }
+        .newsSection .news .rightPanel .popuartNews .newBox .col-md-3 {
+          display: inline-block;
+          float: left;
+          padding: 0; }
+          .newsSection .news .rightPanel .popuartNews .newBox .col-md-3 img {
+            border-radius: 2px;
+            width: 100%; }
+        .newsSection .news .rightPanel .popuartNews .newBox .col-md-9 {
+          padding: 0 0 0 10px;
+          float: right; }
+
+.footerSection {
+  padding: 10px 0 10px 0;
+  background-color: #2A2A2A;
+  color: #999999; }
+  .footerSection .boxes {
+    margin: 0 auto; }
+    .footerSection .boxes .col-md-6 {
+      float: left;
+      display: inline-block;
+      padding-top: 30px; }
+    .footerSection .boxes .right {
+      text-align: right; }
+
+/*# sourceMappingURL=newsstyle.css.map */
