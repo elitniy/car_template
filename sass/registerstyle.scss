@@ -1,0 +1,68 @@
+$fullWidth:100%;
+$width:74%;
+
+
+.width{
+	width:$width;
+
+}
+
+.marginNull{
+	margin:0 auto;
+}
+.navigation{
+	background-color:#F7F7F7;
+	
+	.navbar{
+		
+	}
+	hr{
+		margin:0;
+
+	}
+}
+
+.registerPage{
+	margin:0 auto;
+	padding-top:40px;
+	color:white;
+	height:670px;
+	background-image: url(../image/back-login.jpg);
+	background-size: 100% 100%;
+	overflow: hidden;
+	.form-horizontal{
+		text-align: center;
+		margin:0 auto;
+		max-width:40%;
+		.centerBox{
+			text-align: center;
+			.form-group{
+
+				text-align: center;
+				.col-md-4{
+					margin: 0;
+					text-align: center;
+					max-width:100%;
+				}
+			}
+		}
+	}
+}
+
+.footerSection{
+	padding: 10px 0 10px 0;
+	background-color:#2A2A2A;
+	color:#999999;
+	.boxes{
+		margin: 0 auto;
+		.col-md-6{
+			float: left;
+			display: inline-block;
+			padding-top:30px;
+		}
+		.right{
+			text-align: right;
+		}
+
+	}
+}

@@ -1,0 +1,64 @@
+.width {
+  width: 74%; }
+
+.marginNull {
+  margin: 0 auto; }
+
+.navigation {
+  background-color: #F7F7F7; }
+  .navigation hr {
+    margin: 0; }
+
+.loginPage {
+  padding-top: 40px;
+  color: white;
+  height: 670px;
+  background-image: url(../image/back-login.jpg);
+  background-size: 100% 100%;
+  overflow: hidden; }
+  .loginPage .container .row .main .register {
+    margin-top: 20px;
+    width: 100%; }
+  .loginPage .main {
+    max-width: 320px;
+    margin: 0 auto; }
+  .loginPage .login-or {
+    position: relative;
+    font-size: 18px;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .loginPage .span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center; }
+  .loginPage .hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important; }
+  .loginPage h3 {
+    text-align: center;
+    line-height: 300%; }
+
+.footerSection {
+  padding: 10px 0 10px 0;
+  background-color: #2A2A2A;
+  color: #999999; }
+  .footerSection .boxes {
+    margin: 0 auto; }
+    .footerSection .boxes .col-md-6 {
+      float: left;
+      display: inline-block;
+      padding-top: 30px; }
+    .footerSection .boxes .right {
+      text-align: right; }
+
+/*# sourceMappingURL=loginstyle.css.map */
